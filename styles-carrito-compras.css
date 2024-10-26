@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, sans-serif, Helvetica;
+    box-sizing: border-box;
+    
+}
+
+.encabezado {
+    margin-left: 0px;
+    margin-right: 0px;
+    background: #16325B;
+    padding-left: 9.5%;
+    padding-right: 0%;
+}
+
+.encabezado > div {
+    padding: 0px;
+}
+
+.nav_contenedor {
+    margin: 0%;
+}
+
+.nav_contenedor > div {
+    margin: 0px;
+    padding: 0%;
+}
+
+
+.nav_contenedor .opciones:hover{
+    color: #78B7D0;
+}
+
+
+.logo {
+    font-family: Arial, sans-serif, Helvetica;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 0px;
+    align-self: end;
+    
+}
+
+.opciones{
+    color: #ffffff;
+    text-transform: capitalize;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 5px;
+    transition: all 0.5s ease;
+}
+
+.nav_contenedor ul, ol{
+    list-style: none;
+}
+
+.nav_opciones li a {
+    display: block;
+}
+
+.nav_opciones {
+    display: flex;
+}
+
+.nav_opciones li ul {
+    display: none;
+    background: #16325B;
+    position: absolute;
+    z-index: 1;
+    top: 7%;
+}
+
+.nav_opciones li:hover > ul {
+    display: block;
+}
+
+#busqueda {
+    position: relative;
+    width: 250px;
+    height: 38px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid #ffffff;
+    outline: none;
+    color: #04070e;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.btn_busqueda {
+    background: transparent;
+    border-radius: 70px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+    border: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all 0.5s ease;
+}
+
+.btn_busqueda:hover {
+    background: #227B94;
+}
+
+/* Aqui ya termino todo lo que tiene que ver con el encabezado o la navegacion */
+
+#principal-carrito-compras {
+    margin: 0%;
+    height: 120vh;
+    background-color: #ffdc7f;
+    display: flex;
+    justify-content: center;
+    
+ 
+    
+}
+
+#contenedor-carrito-compras {
+    min-width: 500px;
+    height: 90%;
+    background: #ffffff;
+    margin-top: 40px;
+}
